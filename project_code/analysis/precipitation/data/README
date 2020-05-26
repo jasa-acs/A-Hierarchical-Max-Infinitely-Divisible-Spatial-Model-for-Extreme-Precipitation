@@ -1,0 +1,6 @@
+Datasets:
+	map_polygon: A polygon dataset for plotting
+	ne_states: definitions of north eastern US polygon dataset for plotting
+	mprecip: data set containing spatial locations and annual precipitation maxima used in analysis
+	predcoord: prediction spatial coordinate matrix
+	subregion: a dataset specifying which subregion each gauge station in mprecip belongs to

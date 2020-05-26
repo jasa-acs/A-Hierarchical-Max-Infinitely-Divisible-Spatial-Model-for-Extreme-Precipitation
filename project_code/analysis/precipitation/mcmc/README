@@ -1,0 +1,19 @@
+The code in all of the sub-directories below is used to initialize and run mcmcs for the four models described in the paper. These should all be run before running combine_mcmc_output.R, which can be used to combine mcmc samples that were stored in smaller data chunks.
+
+The naming convention for nested folders is as follows:
+
+fixed: Gaussian density basis model
+lnorm: log-Gaussian process basis model
+
+maxid: theta > 0 case
+maxstable: theta = 0 case (note that maxstable models are max-id)
+
+
+fixed/
+	maxid/
+	maxstable/
+
+lnorm/
+	maxid/
+	maxstable/
+

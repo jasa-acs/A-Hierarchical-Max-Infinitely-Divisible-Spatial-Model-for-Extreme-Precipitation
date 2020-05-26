@@ -1,0 +1,3 @@
+Scripts in these sub directories should be run after running all scripts in the mcmc/ directory.
+
+After running the scripts in the mcmc/ directory, the scripts in this directory can be run in any order.

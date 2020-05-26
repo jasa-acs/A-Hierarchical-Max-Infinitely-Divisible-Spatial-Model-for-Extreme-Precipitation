@@ -1,0 +1,10 @@
+The files for two different analyses should be run in this order
+
+Non-spatial chi
+1. calc_chi.R
+2. plot_chi.R
+
+Spatial chi
+1. calc_gauss_density_spatial_chi.R
+2. calc_gauss_proc_spatial_chi.R
+3. plot_spatial_chi.R

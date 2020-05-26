@@ -1,0 +1,19 @@
+The scripts in this directory should only be run after running those in the mcmc/ directory.
+
+chi_u/ 
+	- calculate empirical and model based estimates of chi_u for the annual maximum precip data (figure 5)
+mcmc_post_proc/
+	- calculate log-scores
+	- make posterior predictive draws that are used for 
+		1. QQ plots (figure 6)
+		2. Quantile surface estimates (figure 7)
+		3. Posterior predictive mean (figure 8)
+		4. Factor analysis (figure 9)
+
+plot_results/
+	- Make paper plots
+	1. Figure 4: plot_gauge_knot_locations.R
+	2. Figure 6: plot_lnmid_postpred_qq_transform_gumbel.R
+	3. Figure 7: plot_lnmid_psurface.R
+	4. Figure 8: plot_lnmid_postpre_mean.R
+	5. Figure 9: factor_analysis.R

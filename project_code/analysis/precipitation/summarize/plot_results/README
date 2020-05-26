@@ -1,0 +1,1 @@
+These scripts make summaries of the posterior predictive samples (e.g. Figures 5-9). Before running any of these scripts, first all of the scripts in mcmc/ should be run, then all of the scripts in mcmc_post_proc/ should be run. Afterwards, the scripts in this directory can be run in any order.

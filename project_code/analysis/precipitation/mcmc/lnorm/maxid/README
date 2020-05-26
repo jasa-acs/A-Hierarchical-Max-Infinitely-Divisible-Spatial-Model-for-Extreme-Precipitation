@@ -1,0 +1,7 @@
+Files should be run in the following order:
+
+1. initialize_mcmc.R
+	- generates initial values for MCMC
+2. mcmc.R
+	- run mcmc sampler (this can be run for long jobs. The chunk number will 
+	  automatically be storred and update with each successive job)

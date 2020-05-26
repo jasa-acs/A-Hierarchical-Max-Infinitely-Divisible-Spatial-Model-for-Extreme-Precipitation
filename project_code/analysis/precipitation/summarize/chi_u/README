@@ -1,0 +1,6 @@
+Caculate empirical and model based estimates of chi_u as a function of distance. Must run all files in mcmc/ dir before summarize/chi_u/ files.
+
+Run scripts in the following order:
+	1. calc_chi_emp_holdout.R
+	2. calc_chi_maxid.R
+	3. plot_chi.R
