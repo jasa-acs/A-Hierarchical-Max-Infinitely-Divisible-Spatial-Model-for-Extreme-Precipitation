@@ -17,9 +17,12 @@ The data, which consist of annual maximum daily precipitation accumulations obse
 Permissions: the data are publically available
 Licensing information: NA
 Link to data: https://hdsc.nws.noaa.gov/hdsc/pfds/pfds_series.html
+
 Data provenance, including identifier or link to original data if different than above
+
 File format: text file
 Metadata: https://hdsc.nws.noaa.gov/hdsc/pfds/pfds_series.html
+
 Version information: none available
 
 
@@ -46,7 +49,9 @@ Version information
 Hardware requirements: access to a computing cluster
 Supporting software requirements:
 	R version: 3.6.0
+
 	R packages: 
+
 	extRemes (2.0.10),
 	RandomFields (3.3.6),
 	RcppGSL (0.3.6),
